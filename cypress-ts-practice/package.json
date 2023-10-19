@@ -1,0 +1,16 @@
+{
+  "name": "cypress-ts-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "npx cypress run --browser chrome",
+    "test:firefox": "npx cypress run --browser firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "typescript_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "@comments": {
+    "type": "module"
+  },
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/customerRoleTests/TransactionsTests.cy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+}

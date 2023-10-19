@@ -1,0 +1,14 @@
+{
+  "name": "w2acypressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run e2e/demo.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  }
+}
